@@ -1,0 +1,162 @@
+/*COLOR PALETTE: https://colorhunt.co/palette/c2ded1ece5c7cdc2ae354259*/
+/*model website: https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/*/
+
+
+/*****************************TAG SELECTORS*******************************/
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+/*div {
+    background-color: #C2DED1;
+}*/
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 2px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    color: #354259;
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    margin: 75px auto;
+    width: 10%;
+    color: #EAF6F6;
+}
+
+a {
+    color: #11999E;
+    margin: auto 25px;
+    text-decoration: none;
+}
+
+/*****************************CLASS SELECTORS*******************************/
+.topContainer {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+/*
+.middleContainer {
+    background-color: #ECE5C7;
+
+}
+*/
+
+.bottomContainer {
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.skillRow{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.infoP {
+    width: 50%;
+    margin:35px auto 50px auto;
+}
+
+.contactMe {
+    padding-bottom: 100px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .copyrightName{
+    color: #EAF6F6;
+    padding: 20px 0;
+    font-size: .75rem;
+  }
+
+  a:hover {
+    color: #EAF6F6;
+  }
+
+
+ /**************CLASS IMAGES**************/
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.selfie{
+    padding-top: 50px;
+}
+
+.controllerImg {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.guitarImg {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
